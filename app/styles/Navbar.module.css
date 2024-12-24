@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: white;
+}
+
+.logo {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 300;
+  color: #333;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #333;
+}
+
+.getStarted {
+  background: #2b3b63;
+  color: white !important;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
